@@ -8,12 +8,14 @@ import Projects from "./components/Projects";
 import GithubStats from "./components/GithubStats";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Mindset from "./components/Mindset";
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
+      <Mindset />
       <Stats />
       <About />
       <Skills />
@@ -24,6 +26,7 @@ function App() {
       <Footer />
     </>
   );
+
 }
 
 export default App;
